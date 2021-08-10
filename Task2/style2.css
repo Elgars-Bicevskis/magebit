@@ -1,0 +1,540 @@
+
+/* remove white margins at the top */
+* {
+ margin: 0;
+ padding: 0;
+}
+
+
+/*  desktop */
+.bg {
+position: relative;
+width: 1920px;
+height: 1080px;
+background: #FFFFFF;
+}
+
+/*  main parameters for left side */
+.left_side{
+position: absolute;
+width: 680px;
+height: 1080px;
+left: 0px;
+top: 0px;
+background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+
+}
+/*  main parameters for right side */
+.right_side{
+position: absolute;
+width: 1240px;
+height: 1080px;
+left: 680px;
+top: 0px;
+
+}
+
+/*  heading */
+#header1 {
+  position: absolute;
+  width: 400px;
+  height: 44px;
+  left: 140px;
+  top: 369px;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+color: #131821;
+}
+
+/*  subheading */
+#subheading{
+position: absolute;
+width: 400px;
+height: 56px;
+left: 140px;
+top: 433px;
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+color: #6A707B;
+}
+
+
+
+/*  horizontal line */
+.hl{
+
+position: absolute;
+width: 400px;
+height: 1px;
+left: 140px;
+top: 539px;
+background: #E3E3E4;
+}
+
+#pineappleLogo{
+position: absolute;
+left: 100px;
+top: 100px;
+border-radius: 0px;
+}
+
+#pineappleText{
+font-family:  Arial;
+font-style: normal;
+font-weight: normal;
+position: absolute;
+left: 140px;
+top: 120px;
+
+
+}
+#aboutText{
+position: absolute;
+height: 26px;
+width: 42px;
+left: 331px;
+top: 114px;
+border-radius: nullpx;
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #6A707B;
+}
+#howitworksText{
+position: absolute;
+width: 91px;
+height: 26px;
+left: 403px;
+top: 114px;
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #6A707B;
+}
+#contactText{
+position: absolute;
+width: 56px;
+height: 26px;
+left: 524px;
+top: 114px;
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #6A707B;
+}
+
+.trophy{
+position: absolute;
+width: 44px;
+height: 70px;
+left: 140px;
+top: 269px;
+}
+
+/* fb base*/
+.fb{
+position: absolute;
+width: 46px;
+height: 46px;
+left: 218px;
+top: 590px;
+border-radius: 50%;
+border: 2px solid #E3E3E4;
+box-sizing: border-box;
+}
+/* ig base*/
+.ig{
+position: absolute;
+width: 46px;
+height: 46px;
+left: 284px;
+top: 590px;
+border-radius: 50%;
+border: 2px solid #E3E3E4;
+box-sizing: border-box;
+}
+/* yt base*/
+.yt{
+position: absolute;
+width: 46px;
+height: 46px;
+left: 416px;
+top: 590px;
+border-radius: 50%;
+border: 2px solid #E3E3E4;
+box-sizing: border-box;
+}
+/* tw base*/
+.tw{
+position: absolute;
+width: 46px;
+height: 46px;
+left: 350px;
+top: 590px;
+border-radius: 50%;
+border: 2px solid #E2E3E4;
+box-sizing: border-box;
+}
+/* fb icon placement*/
+.fbicon {
+position: absolute;
+height: 16px;
+width: 8px;
+left: 237px;
+top: 605px;
+border-radius: 0px;
+
+}
+/* ig icon placement*/
+.igicon {
+position: absolute;
+height: 16px;
+width: 16px;
+left: 299px;
+top: 605px;
+border-radius: 0px;
+}
+/* tw icon placement*/
+.twicon {
+position: absolute;
+height: 13px;
+width: 16px;
+left: 365px;
+top: 607px;
+border-radius: 0px;
+}
+/* yt icon placement*/
+.yticon {
+position: absolute;
+height: 11px;
+width: 16px;
+left: 431px;
+top: 607px;
+border-radius: 0px;
+background-color: : #F2F5FA;
+}
+
+.yt:hover {
+  background: #FF0000;
+box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+
+.tw:hover{
+  background: #1DA1F2;
+box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+
+.ig:hover{
+  background: #C13584;
+box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+
+.fb:hover{
+  background: #4267B2;
+box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+
+.yt:active {
+  background: #CC0000;
+}
+
+.tw:active {
+  background: #177FBF;
+}
+
+.ig:active{
+  background: #8F2762;
+}
+
+.fb:active{
+  background: #2F4A80;
+}
+
+#pineappleText:hover path{
+fill: #00BFFF;
+}
+#pineappleLogo:hover path{
+fill: #00BFFF;
+}
+
+/* mobile and small devices view */
+@media only screen and (max-width:600px){
+
+  .bg {
+  position: relative;
+  width: 375px;
+  height: 812px;
+  background: #FFFFFF;
+  }
+  .topbar{
+    position:relative;
+    width: 375px;
+    height: 66px;
+    left: -30px;
+    top: -261px;
+    background: #FFFFFF;
+  }
+  #pineappleText{
+  display:none;
+  }
+  #pineappleLogo{
+  position: absolute;
+  width: 25px;
+  height: 40px;
+  left: 20px;
+  top: 10px;
+  border-radius: 0px;
+  }
+  #aboutText{
+  position: absolute;
+  width: 37px;
+  height: 24px;
+  left: 149px;
+  top: 21px;
+  border-radius: nullpx;
+  font-family:,Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #6A707B;
+  }
+  #howitworksText{
+  position: absolute;
+  width: 80px;
+  height: 24px;
+  left: 206px;
+  top: 21px;
+  font-family:,Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #6A707B;
+  }
+  #contactText{
+  position: absolute;
+  width: 49px;
+  height: 24px;
+  left: 306px;
+  top: 21px;
+  font-family:,Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #6A707B;
+  }
+  .left_side{
+  position: absolute;
+  width: 335px;
+  height: 371px;
+  left: 10px;
+  top: 254px;
+  background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+  z-index: 1;
+  }
+  .right_side{
+    position: absolute;
+    width: 1119px;
+    height: 746px;
+    left: -281px;
+    top: 66px;
+  }
+  .trophy{
+  position: absolute;
+  width: 44px;
+  height: 70px;
+  left: 20px;
+  top:30px;
+  }
+  #header1 {
+  position: absolute;
+  width: 295px;
+  height: 34px;
+  left:20px;
+  top: 139px;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 34px;
+  color: #131821;
+  z-index: 2;
+  }
+  #subheading{
+  position: absolute;
+  width: 295px;
+  height: 52px;
+  left: 20px;
+  top: 183px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  color: #6A707B;
+  z-index: 2;
+  }
+  #inputbase{
+  position: absolute;
+  width: 295px;
+  height: 60px;
+  left: 20px;
+  top: 146px;
+  padding: 19px 18px;
+  background: #FFFFFF;
+  border: 1px solid #E3E3E4;
+  box-sizing: border-box;
+  }
+
+
+  .hl{
+  position: absolute;
+  width: 295px;
+  height: 1px;
+  left: 20px;
+  top: 274px;
+  background: #E3E3E4;
+  z-index:2;
+  }
+
+
+  /* fb base*/
+  .fb{
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  left: 53px;
+  top: 295px;
+  border-radius: 50%;
+  border: 2px solid #E3E3E4;
+  box-sizing: border-box;
+
+  }
+  /* ig base*/
+  .ig{
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  left: 109px;
+  top: 295px;
+  border-radius: 50%;
+  border: 2px solid #E3E3E4;
+  box-sizing: border-box;
+
+  }
+  /* yt base*/
+  .yt{
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  left: 165px;
+  top: 295px;
+  border-radius: 50%;
+  border: 2px solid #E3E3E4;
+  box-sizing: border-box;
+
+  }
+  /* tw base*/
+  .tw{
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  left: 221px;
+  top: 295px;
+  border-radius: 50%;
+  border: 2px solid #E2E3E4;
+  box-sizing: border-box;
+
+  }
+  /* fb icon placement*/
+  .fbicon {
+  position: absolute;
+  height: 16px;
+  width: 8px;
+  left: 72px;
+  top: 310px;
+  border-radius: 0px;
+
+  }
+  /* ig icon placement*/
+  .igicon {
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  left: 124px;
+  top: 310px;
+  border-radius: 0px;
+
+  }
+  /* tw icon placement*/
+  .twicon {
+  position: absolute;
+  height: 13px;
+  width: 16px;
+  left: 180px;
+  top: 310px;
+  border-radius: 0px;
+
+  }
+  /* yt icon placement*/
+  .yticon {
+  position: absolute;
+  height: 11px;
+  width: 16px;
+  left: 236px;
+  top: 310px;
+  border-radius: 0px;
+  background-color: : #F2F5FA;
+  }
+
+  .yt:hover {
+    background: #FF0000;
+  box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+  }
+
+  .tw:hover{
+    background: #1DA1F2;
+  box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+  }
+
+  .ig:hover{
+    background: #C13584;
+  box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+  }
+
+  .fb:hover{
+    background: #4267B2;
+  box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+  }
+
+  .yt:active {
+    background: #CC0000;
+  }
+
+  .tw:active {
+    background: #177FBF;
+  }
+
+  .ig:active{
+    background: #8F2762;
+  }
+
+  .fb:active{
+    background: #2F4A80;
+  }
+
+  }

@@ -1,0 +1,100 @@
+table{
+  width: 50%;
+  margin: 30px auto;
+  border-collapse: collapse;
+}
+
+tr{
+  border-bottom: 1px solid #cbcbcb;
+}
+
+th{
+  text-align: left;
+  font-size:19px;
+  color: #DC143C;
+}
+
+td {
+  border: none;
+  height:30px;
+  padding: 2px;
+}
+
+tr:hover{
+background: #E9E9E9;
+}
+
+
+.dropbtn {
+  position:relative;
+  left:635px;
+  background-color: #A9A9A9;
+  color: white;
+  height: 40px;
+  width: 160px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position:relative;
+  left:635px;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  position:relative;
+  left:635px;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width:160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content button {
+  color: black;
+  width:160px;
+  height:20px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+.delete{
+  text-align: center;
+}
+
+.delete a{
+  color:white;
+  background: #a52a2a;
+  padding: 1px 6px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+.wrapper{
+  position: absolute;
+  left: 1100px;
+  top: 10px;
+}
+#provDrop{
+  position:absolute;
+  left:10px;
+}
+
+#prov{
+  position:absolute;
+  left:180px;
+}
+#provBtn{
+  position:absolute;
+  top:80px;
+}
